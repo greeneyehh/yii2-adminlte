@@ -1,0 +1,21 @@
+{
+    "name": "greeneye/yii2-adminlte",
+    "description": "My first Composer project",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Greeneye",
+            "email": "info@green-dev.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "greeneye/adminlte": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "greeneye\\adminlte\\": "src"
+        }
+    }
+}
